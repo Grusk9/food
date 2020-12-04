@@ -1,1 +1,70 @@
 /* Denna fil skall innehålla din CSS kod */
+* {margin: 0px;}
+
+
+#container{
+    display: grid;
+    width: 100vw;
+    height: 200vh;
+    grid-template-areas:
+    'he he he he he he he he '
+    'a100 a100 a100 a100 a100 a100 a100 a100'
+    'a100 a100 a100 a100 a100 a100 a100 a100'
+    'a100 a100 a100 a100 a100 a100 a100 a100'
+    'a100 a100 a100 a100 a100 a100 a100 a100'
+    'a1 a1 a1 a1 a1 a1 a1 a1'
+    'a1 a1 a1 a1 a1 a1 a1 a1'
+    'a1 a1 a1 a1 a1 a1 a1 a1'
+    'a1 a1 a1 a1 a1 a1 a1 a1'
+    'a1 a1 a1 a1 a1 a1 a1 a1'
+    'a2 a2 a2 a2 a2 a2 a2 a2'
+    'a3 a3 a3 a3 a3 a3 a3 a3'
+    'ft ft ft ft ft ft ft ft'
+    ;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+}
+
+
+#parallax {
+background: url('../img/Yodas-hut.png') no-repeat center;
+background-size: cover;
+background-attachment: fixed;
+height: 200vh;
+}
+
+
+#header{
+   grid-area: he;
+    background-color: black;
+    opacity: 30%;
+}
+
+#article1{
+   grid-area: a1;
+   background: black;
+   height: 100vh;
+   length: 100vh;
+   
+}
+
+#article2{
+    grid-area: a2;
+    background: red;
+ }
+
+ #article3{
+    grid-area: a3;
+    background: lime;
+ }
+
+#atricle100{
+grid-area: a100;
+background: transparent;
+}
+
+#footer{
+    grid-area: ft;
+    background: black;
+}
+
