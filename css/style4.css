@@ -21,7 +21,7 @@
     'a1 a1 a1 a1 a1 a1 a1 a1'
     ;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(14, 1fr);
+    grid-template-rows: repeat(12, 1fr);
 }
 
 
@@ -60,6 +60,10 @@ header{
 #article1{
    grid-area: a1;
  }
+ #Food-menu{
+     width: 100vw;
+     height: 100vh;
+ }
 
 
 
@@ -67,8 +71,6 @@ header{
     grid-area: a2;
     background: #2d5165;
     opacity: 80%;
-    display: flex;
-    align-items: ;
  }
 
 
@@ -151,7 +153,6 @@ header img{
     width: 15vw;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
     font-family: 'arial';
 }
 
@@ -192,7 +193,6 @@ header img{
     width: 15vw;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
     font-family: 'arial';
     
 }
@@ -232,9 +232,7 @@ header img{
     font-size: 28px;
     padding: 20px;
     width: 15vw;
-    transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
     font-family: 'arial';
 }
 

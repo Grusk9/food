@@ -68,7 +68,7 @@ header{
     background: #2d5165;
     opacity: 80%;
     display: flex;
-    align-items: ;
+    align-items: center;
  }
 
 
@@ -153,6 +153,7 @@ header img{
     cursor: pointer;
     margin: 5px;
     font-family: 'arial';
+    margin-left: 27vw;
 }
 
 #btn1 span{
